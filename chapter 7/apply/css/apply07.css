@@ -1,6 +1,6 @@
 /*
 Author:Payton Sprague
-Date:12/14/2023
+Date:12/15/2023
 File Name:apply07.css 
 */
 
@@ -49,7 +49,7 @@ main {
 	background-color: #fff;
 }
 
-section{
+section  {
 	background-color: #183440;
 	color: #fff;
 	margin-top: 4%;
@@ -78,10 +78,12 @@ footer {
 @media screen and (min-width: 650px), print {
 	.grid{
 		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px
 	}
 	
 	aside{
-		grid-column: 1 / span 5;
+		grid-column: 1 / span 3;
 	}
     
 }
